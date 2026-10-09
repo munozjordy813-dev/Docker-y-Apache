@@ -1,4 +1,4 @@
-<img width="1240" height="386" alt="image" src="https://github.com/user-attachments/assets/b655a635-6c57-4cc2-9cda-46851ce1d038" /># Guía Completa de la Práctica: Despliegue y Automatización de Apache con Docker
+# Guía Completa de la Práctica: Despliegue y Automatización de Apache con Docker
 
 Este documento contiene la memoria detallada y paso a paso de todas las tareas realizadas durante la práctica, incluyendo la instalación manual, creación de imágenes personalizadas con Dockerfile, transferencia de archivos y despliegue de servicios mediante Docker Compose.
 
@@ -16,6 +16,8 @@ Se descargó la última versión de la imagen oficial de Debian desde el registr
 ```cmd
 docker pull debian:latest
 ```
+<img width="644" height="301" alt="image" src="https://github.com/user-attachments/assets/cea52ae8-909a-471d-bbaf-59efb869db0f" />
+
 
 *(Opcionalmente también se descargó la etiqueta `trixie-backports`: `docker pull debian:trixie-backports`)*
 
