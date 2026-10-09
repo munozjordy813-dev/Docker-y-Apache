@@ -170,6 +170,8 @@ Se comprobó la transferencia directa de archivos entre la máquina Windows y el
 
 3. **Verificación en el navegador:**
    * **URL:** `http://localhost:8083/mi_pagina.html`
+<img width="593" height="168" alt="image" src="https://github.com/user-attachments/assets/3553038d-eef7-4112-84dd-f3f290f5f99a" />
+<img width="341" height="215" alt="image" src="https://github.com/user-attachments/assets/80d64f16-3356-4232-b655-2e6400abde08" />
 
 ---
 
@@ -186,13 +188,17 @@ services:
       - "8084:80"
     volumes:
       - .:/var/www/html
-```
+`<img width="765" height="275" alt="image" src="https://github.com/user-attachments/assets/fab9656c-b99c-4b41-ad39-707e1a000aeb" />
+``
 
 ### Arranque del servicio con Docker Compose:
 ```cmd
 docker compose up -d
 ```
+<img width="884" height="338" alt="image" src="https://github.com/user-attachments/assets/5f420d75-1067-4010-ba95-78158b1b5477" />
 
 ### Comprobación final:
 Se ingresó desde el navegador para confirmar que la aplicación sirve el archivo local vinculado:
 * **URL:** `http://localhost:8084/jordy_munoz.html`
+* <img width="1240" height="386" alt="image" src="https://github.com/user-attachments/assets/67ca1786-7474-4c4b-9f29-726dd68f1dd7" />
+
