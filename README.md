@@ -1,4 +1,4 @@
-# Guía Completa de la Práctica: Despliegue y Automatización de Apache con Docker
+<img width="1240" height="386" alt="image" src="https://github.com/user-attachments/assets/b655a635-6c57-4cc2-9cda-46851ce1d038" /># Guía Completa de la Práctica: Despliegue y Automatización de Apache con Docker
 
 Este documento contiene la memoria detallada y paso a paso de todas las tareas realizadas durante la práctica, incluyendo la instalación manual, creación de imágenes personalizadas con Dockerfile, transferencia de archivos y despliegue de servicios mediante Docker Compose.
 
@@ -6,11 +6,12 @@ Este documento contiene la memoria detallada y paso a paso de todas las tareas r
 
 ## 1. Documentar los pasos seguidos
 El presente fichero `Pasos-realizados.md` recopila de forma estructurada en formato Markdown cada uno de los comandos, ficheros de configuración y comprobaciones efectuados a lo largo de la práctica.
-
+****
 ---
 
 ## 2. Descargar imagen del hub de Docker de Debian
 Se descargó la última versión de la imagen oficial de Debian desde el registro público de Docker Hub:
+<img width="661" height="476" alt="image" src="https://github.com/user-attachments/assets/d81110d4-67e2-4ebd-93cb-824af65f4aac" />
 
 ```cmd
 docker pull debian:latest
