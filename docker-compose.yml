@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    image: mi_apache_jordy:latest
+    container_name: apache_con_volumen
+    ports:
+      - "8084:80"
+    volumes:
+      - .:/var/www/html
