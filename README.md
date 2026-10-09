@@ -25,6 +25,8 @@ docker pull debian:latest
 ```cmd
 docker images
 ```
+<img width="640" height="328" alt="image" src="https://github.com/user-attachments/assets/307c6b4a-32b1-462a-bb7f-a463d856dcab" />
+
 
 ---
 
@@ -34,6 +36,7 @@ Se inició un contenedor en segundo plano (`-d`) de forma interactiva (`-i`) con
 ```cmd
 docker run -dit --name jordy_munoz -p 8082:80 debian
 ```
+<img width="661" height="293" alt="image" src="https://github.com/user-attachments/assets/2245f1ba-2f21-4be2-8eaf-a593a4c496b5" />
 
 ---
 
@@ -43,6 +46,7 @@ Se accedió a la línea de comandos interactiva de Bash dentro del contenedor re
 ```cmd
 docker exec -it jordy_munoz bash
 ```
+<img width="595" height="194" alt="image" src="https://github.com/user-attachments/assets/c1df8b74-0758-4aca-83a6-2a313213cbed" />
 
 ---
 
@@ -52,6 +56,7 @@ Una vez en la terminal interactiva del contenedor (`root@07d9b9e5cea7:/#`), se a
 ```bash
 apt update && apt install -y apache2 elinks
 ```
+<img width="674" height="202" alt="image" src="https://github.com/user-attachments/assets/6d382aca-d025-4798-91c4-3caef6ba7413" />
 
 ---
 
@@ -62,6 +67,7 @@ Se inició el servicio del servidor web Apache2 dentro del contenedor y se compr
 service apache2 start
 service apache2 status
 ```
+<img width="397" height="158" alt="image" src="https://github.com/user-attachments/assets/fed13e08-edae-4afb-8c2d-bc8f627e2b7a" />
 
 ---
 
@@ -70,6 +76,7 @@ Se confirmó que el servidor web responde correctamente abriendo el navegador we
 
 * **URL de acceso:** `http://localhost:8082`
 * **Resultado:** Se muestra la página oficial por defecto de bienvenida: *"Apache2 Debian Default Page - It works!"*.
+<img width="736" height="955" alt="image" src="https://github.com/user-attachments/assets/1a69398c-530b-45ea-9ef3-2e79f9d958c1" />
 
 ---
 
@@ -80,6 +87,7 @@ Dentro de la consola del contenedor, se navegó hacia el directorio raíz de pub
 cd /var/www/html
 echo "<h1>Pagina de Jordy Munoz</h1>" > jordy_munoz.html
 ```
+<img width="704" height="167" alt="image" src="https://github.com/user-attachments/assets/55dae4f7-ce6c-4eec-9463-82cf080fff73" />
 
 ---
 
@@ -87,6 +95,7 @@ echo "<h1>Pagina de Jordy Munoz</h1>" > jordy_munoz.html
 Se verificó el acceso y correcto renderizado del documento HTML recién creado ingresando a la URL:
 
 * **URL:** `http://localhost:8082/jordy_munoz.html`
+<img width="307" height="116" alt="image" src="https://github.com/user-attachments/assets/13c078ce-d129-45c0-9704-6dc778d51a5c" />
 
 ---
 
@@ -115,7 +124,9 @@ RUN echo "<h1>Pagina de Jordy Munoz</h1>" > /var/www/html/jordy_munoz.html
 EXPOSE 80
 
 CMD ["apache2ctl", "-D", "FOREGROUND"]
-```
+`<img width="676" height="325" alt="image" src="https://github.com/user-attachments/assets/49e5ed2b-2c74-4f9d-84b7-0fca53b32969" />
+``
+<img width="868" height="366" alt="image" src="https://github.com/user-attachments/assets/2c3d146f-c8a0-4407-9086-3031ef92db40" />
 
 ---
 
