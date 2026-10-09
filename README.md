@@ -136,6 +136,8 @@ Se compiló la imagen personalizada asignándole la etiqueta `mi_apache_jordy`:
 ```cmd
 docker build -t mi_apache_jordy .
 ```
+<img width="676" height="325" alt="image" src="https://github.com/user-attachments/assets/0c657f5b-dc97-4887-8748-ebc36529675c" />
+<img width="868" height="366" alt="image" src="https://github.com/user-attachments/assets/c109ff85-9aa0-4ce5-9f3b-38b365774a2b" />
 
 ---
 
@@ -145,6 +147,7 @@ Se puso en marcha un contenedor basado en la nueva imagen compilada, asignándol
 ```cmd
 docker run -d -p 8083:80 --name contenedor_automatizado mi_apache_jordy
 ```
+<img width="1694" height="281" alt="image" src="https://github.com/user-attachments/assets/4f338f62-6536-4bcc-b4d5-3eb2ad0fa488" />
 
 ### Verificación desde el navegador y consola:
 * **URL:** `http://localhost:8083/jordy_munoz.html`
